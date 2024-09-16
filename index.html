@@ -1,0 +1,30 @@
+<!imagesresultDOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/data.js"></script>
+</head>
+<body>
+<div class="container-fluid py-5 text-center" 
+style="background-image: url('assets/ocean-6860109_1280.jpg'); background-size: cover;">
+  <p class="display-4 pt-5 mt-5">Search Videos </p>
+  <form action="" class="mb-5 pb-5">
+    <div class="input-group w-50 mx-auto">
+      <input type="text" id="q" class="form-control py-3" placeholder="Search Videos">
+      <button class="btn btn-light" onclick="getVideos(event)"><i class="bi bi-search"></i></button>
+    </div>
+  </form>
+</div>
+      <div class="container py-5">
+        <div class="row" id="videosresult">
+            
+        </div>
+      </div>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
